@@ -7,7 +7,7 @@
 
 > Automated **Better Fan trading bot** — Sports / esports. Part of the [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) suite: one execution core, one risk layer, every venue.
 
-**Better Fan** is on the **adapter-driven roadmap** — the engine is built; the Better Fan adapter is in the queue. Trade it and want it prioritized? [Reach out](https://t.me/HarrierOnChain) and it moves up.
+**Better Fan** is **live in production today.**
 
 ---
 
@@ -20,6 +20,20 @@ These bots run on Better Fan through a single venue adapter on the shared engine
 | 🏆 **Sports Execution** — click, filled, done — under 50ms FAK |
 
 > Want a strategy not listed here on Better Fan? Adapter coverage is demand-driven — [ask](https://t.me/HarrierOnChain).
+
+---
+
+## Quickstart
+
+Clone, drop in your keys, and run — the TUI lets you pick a strategy.
+
+```bash
+git clone https://github.com/HarrierOnChain/Better-Fan.git
+cd Better-Fan
+cp config.example.yaml config.yaml   # add your keys
+cargo run --release                  # launch the TUI
+# headless: cargo run --release -- run copy-trading
+```
 
 ---
 
